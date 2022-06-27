@@ -1,0 +1,12 @@
+.homeSvg {
+    width: 35px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
